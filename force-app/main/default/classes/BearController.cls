@@ -2,6 +2,8 @@ public with sharing class BearController {
     @AuraEnabled(Cacheable=true)
     public static Bear__c[] getAllBears() {
         System.debug('Get All Bears');
+        System.debug('Get All Bears');
+        System.debug('Get All Bears');
         return [
             SELECT
                 Id,
